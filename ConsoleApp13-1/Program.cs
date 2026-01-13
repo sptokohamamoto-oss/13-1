@@ -1,2 +1,44 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+
+class Program
+{
+
+    enum DayOfWeek
+    {
+        Sunday,
+        Monday,
+        Tuesday,
+        Wednesday,
+        Thursday,
+        Friday,
+        Saturday,
+    }
+
+    static void Main(string[] args)
+    {
+        foreach (DayOfWeek day in Enum.GetValues(typeof(DayOfWeek)))
+            
+            Console.WriteLine(day); 
+    }
+}
+
+    
+    
+    
+       
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
